@@ -1,10 +1,10 @@
 # Wireless Pi Streamer (WIP)
-This project provides scripts and all instructions to stream HDMI inputs, USB-Webcams and Audio inputs over the network for use in OBS.
+This project provides scripts and all instructions to stream HDMI inputs, USB webcams and audio inputs over the network for use in OBS.
 
 ## TODO
 - Automated + interactive setup script for Pi
-- Setup scripts for Windows and MacOS
-- Ability to stream HDMI and Camera audio
+- Setup scripts for Windows and macOS
+- Ability to stream HDMI and camera audio
 - Sync video and audio streams by timestamp
 
 ## Setup
@@ -61,7 +61,7 @@ udpsrc port=5010 ! gdpdepay  ! rtpvrawdepay ! videoconvert ! video.
 For the Pi Camera there already is [another project](https://github.com/hotsparklab/raspberry-pi-udp-camera) which provides a script including instructions for OBS.
 
 ### Audio Input (WIP)
-To stream an audio input we are usign a [USB Audio card](https://de.aliexpress.com/item/32721660686.html) which is natively supported by Raspberry Pi OS.
+To stream an audio input we are usign a [USB audio card](https://de.aliexpress.com/item/32721660686.html) which is natively supported by Raspberry Pi OS.
 
 #### Raspberry Pi:
 
